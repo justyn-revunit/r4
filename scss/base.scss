@@ -1,0 +1,280 @@
+//============================================================ Base
+body {
+    font-family: $body;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// type
+p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $head;
+    font-weight: 800;
+}
+
+// custom type overides
+.h2, h2 {
+    font-size: 24px;
+}
+
+.h3, h3 {
+    font-size: 22px;
+}
+
+//============================================================ Base ! 
+
+
+
+//============================================================ Helpers
+// backgrounds
+.bg-lt-gray {
+    background-color: $lt-gray;
+}
+
+.bg-teal {
+    background-color: $teal;
+}
+
+.bg-dark-teal {
+    background-color: $dark-teal;
+}
+
+
+.bg-purple {
+    background-color: $purple;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-teal *,
+.bg-purple *,
+.bg-orange *,
+.bg-gray * {
+    color: #fff;
+}
+
+.bg-white * {
+    color: #000;
+}
+
+
+
+// layout helpers
+.kill-padding-h {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.kill-padding-v {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.vert-center-text-wrap {
+    // vert center the text
+    display: flex;
+    align-items: center; 
+    overflow: hidden;
+}
+
+// type helpers
+.kill-text {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999999px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+//============================================================ Helpers !
+
+
+
+//============================================================ Buttons
+// custom buttons
+.btn-custom {
+    display: inline-block;
+    background: red; 
+    padding: 12px 35px 10px;
+    border-radius: 100px;
+    color: $white;
+    font-family: $head;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.btn-custom:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+// custom button colors
+.btn--teal {
+    background-color: $teal;
+}
+
+.btn--orange {
+    background-color: $orange;  
+}
+
+.btn--purple {
+    background-color: $purple;   
+}
+
+.btn--gray {
+    background-color: $gray;
+}
+
+.btn--white {
+    background-color: $white;
+    color: $teal;
+
+    &:hover {
+        color: $teal;
+    }
+}
+//============================================================ Buttons
+
+
+
+
+
+
+
+//============================================================ Globals
+.global-wrap {
+    padding: 0;
+}
+
+.global-header {
+    background-color: red;
+}
+
+.global-nav {
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+
+.navbar-header {
+    background: $white;
+}
+
+.global-brand {
+    background: url($logo-large) no-repeat right center;
+    width: 142px;
+    height: 36px;
+    margin-top: 8px;
+    padding-right: 20px;
+}
+
+// mobile menu icon
+.icon-bar {
+    background: $gray;
+}
+//============================================================ Globas !
+
+
+
+
+
+
+
+//============================================================ Heros
+.hero {
+    height: 70vh;
+    display: block;
+    width: 100%;
+}
+
+//============================================================ Heros !
+
+
+
+
+//============================================================ Home
+// ==== hero
+.hero--home {
+    text-align: center;
+    position: relative;
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: -.02em;
+        max-width: 300px;
+        margin: 0 auto 10px;
+    }
+}
+
+.hero--home .img-wrap {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 226px;
+    background: transparent url($img-hero-home) no-repeat bottom center;
+}
+
+// === brand logos
+.partner-logos-home {
+    // center the logo images 
+    text-align: center;
+
+    .logo {
+        padding: 20px 0;
+        background-color: red;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+// partner parter logo 
+.logo--walmart {
+    background-image: url($logo-walmart);
+}
+
+//============================================================ Home !
+
+
+
+//============================================================ Clients
+.hero--clients .logo-wrap div {
+    background: #ccc;
+    height: 100px;
+}
+//============================================================ Clients !
+
+
+
+//============================================================ Testing | Remove before prodction
+body {
+    // background: transparent url($test-img) no-repeat top center;
+}
+
+// .bg-teal,
+// .bg-purple,
+// .bg-orange,
+// .bg-gray {
+//     background: none !important;
+// }
+
+//============================================================ Testing !
