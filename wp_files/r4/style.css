@@ -1,0 +1,157 @@
+/*
+ Theme Name:   R4
+ Description:  RevUnit 4.0
+ Author:       Justyn Hornor
+ Template:     bbe
+ Version:      1.0.0
+*/
+
+.page-header-dark h1, .page-header-dark p, .callout-card-dark p{color:#fff}
+.page-header p{
+	max-width:60vw;
+	margin: 0 auto;
+}
+#main-nav{
+    display: none !important;
+}
+
+.hero-wrapper{
+    min-height:80vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Body*/
+body {
+    font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    color: #737c8b;
+}
+.hero-main h1{
+    color:#fff;
+}
+
+
+/*Text*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #313646;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+p {
+   font-size: 18px;
+   line-height: 1.7em;
+}
+
+
+/*Helpers*/
+.bg-white {
+    background-color: #fff;
+}
+
+.kill-pad {
+    padding: 0;
+}
+
+
+/*Hero*/
+
+.hero-main h1 {
+    font-size: 70px;
+}
+
+.hero-text-align {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -10%;
+}
+
+/*Client Logos*/
+.client-logos-wrap {
+    padding: 40px 0;
+    border-bottom: solid 1px #eee;
+}
+
+/*Innovation*/
+.innovation-wrap {
+    padding: 60px 0 20px;
+}
+
+.innovation-wrap p {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+
+/*Image Grid*/
+.page-header {
+    border-bottom: none;
+    margin: 0;
+}
+
+.copy-wrap {
+    padding: 40px 40px 40px;
+}
+
+
+/*Culture*/
+.callout-main {
+    min-height: 650px;
+}
+
+.callout-card {
+    padding: 40px 20px;
+}
+
+.callout-card img {
+    margin-bottom: 30px;
+}
+
+
+
+.main-header {
+    position: relative;
+    height: 87px;
+}
+
+
+nav {
+    position: absolute;
+    right: 10px;
+    /**top: 32px;**/
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    font-weight: 800;
+    padding-right: 25px;
+    color: #313646;
+}
+
+.logo {
+    display: block;
+    text-indent: -999999px;
+    overflow: hidden;
+    height: 47px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background-image: url(Dark-Logo.png);
+    background-repeat: no-repeat;
+}
