@@ -91,6 +91,12 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
+.section-pad {
+    padding: 70px 0;
+}
+
+
+
 // type helpers
 .kill-text {
     display: block;
@@ -100,6 +106,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .caps {
     text-transform: uppercase;
+}
+
+
+// visual helpers
+.shadow {
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.06);
+}
+
+.text-center.float-center {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 //============================================================ Helpers !
@@ -220,9 +237,14 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 30px;
         letter-spacing: -.02em;
         max-width: 300px;
-        margin: 0 auto 10px;
+        margin: 0 auto 25px;
+    }
+
+    .text-wrap {
+        padding-top: 10vh;
     }
 }
+
 
 .hero--home .img-wrap {
     position: absolute;
@@ -232,15 +254,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 226px;
     background: transparent url($img-hero-home) no-repeat bottom center;
 }
+// === Hero !
 
-// === brand logos
+
+
+// === Partner Logos
+// brand logos
 .partner-logos-home {
     // center the logo images 
     text-align: center;
 
     .logo {
         padding: 20px 0;
-        background-color: red;
+        // background-color: red;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -251,6 +277,46 @@ h1, h2, h3, h4, h5, h6 {
 .logo--walmart {
     background-image: url($logo-walmart);
 }
+
+.logo--sams {
+    background-image: url($logo-sams);
+}
+
+.logo--virgin {
+    background-image: url($logo-virgin);
+}
+
+.logo--autozone  {
+    background-image: url($logo-autozone);
+}
+
+.logo--purina{
+    background-image: url($logo-purina);
+}
+
+.logo--nfm {
+    background-image: url($logo-nfm);
+}
+// === Partner Logos !
+
+
+// === Your Culture Your Workflow 
+.home-partner-wrap {
+    padding: 50px;
+    margin-bottom: 5%;
+}
+
+.partner-logo {
+    background-size: contain;
+    width: 175px;
+    height: 45px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+// === Your Culture Your Workflow !
+
 
 //============================================================ Home !
 

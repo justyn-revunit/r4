@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   overflow: hidden; }
 
+.section-pad {
+  padding: 70px 0; }
+
 .kill-text {
   display: block;
   overflow: hidden;
@@ -67,6 +70,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .caps {
   text-transform: uppercase; }
+
+.shadow {
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.06); }
+
+.text-center.float-center {
+  max-width: 80%;
+  margin: 0 auto; }
 
 .btn-custom {
   display: inline-block;
@@ -138,7 +148,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     letter-spacing: -.02em;
     max-width: 300px;
-    margin: 0 auto 10px; }
+    margin: 0 auto 25px; }
+  .hero--home .text-wrap {
+    padding-top: 10vh; }
 
 .hero--home .img-wrap {
   position: absolute;
@@ -152,13 +164,40 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
   .partner-logos-home .logo {
     padding: 20px 0;
-    background-color: red;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; }
 
 .logo--walmart {
   background-image: url("../img/logo--walmart.svg"); }
+
+.logo--sams {
+  background-image: url("../img/logo--sams.svg"); }
+
+.logo--virgin {
+  background-image: url("../img/logo--virgin.svg"); }
+
+.logo--autozone {
+  background-image: url("../img/logo--autozone.svg"); }
+
+.logo--purina {
+  background-image: url("../img/logo--purina.svg"); }
+
+.logo--nfm {
+  background-image: url("../img/logo--nfm.svg"); }
+
+.home-partner-wrap {
+  padding: 50px;
+  margin-bottom: 5%; }
+
+.partner-logo {
+  background-size: contain;
+  width: 175px;
+  height: 45px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 30px; }
 
 .hero--clients .logo-wrap div {
   background: #ccc;
