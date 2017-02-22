@@ -105,6 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 .btn--gray {
   background-color: #4D4D4D; }
 
+.btn--teal:hover,
+.btn--orange:hover,
+.btn--purple:hover,
+.btn--gray:hover {
+  color: #fff; }
+
 .btn--white {
   background-color: #ffffff;
   color: #29AEA9; }
@@ -123,7 +129,8 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   margin: 0; }
 
-.navbar-header {
+.navbar-header,
+.navbar-collapse {
   background: #ffffff; }
 
 .global-brand {

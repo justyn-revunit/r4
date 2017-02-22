@@ -159,6 +159,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray;
 }
 
+.btn--teal:hover,
+.btn--orange:hover,
+.btn--purple:hover,
+.btn--gray:hover {
+    color: #fff;
+}
+
 .btn--white {
     background-color: $white;
     color: $teal;
@@ -191,7 +198,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.navbar-header {
+.navbar-header,
+.navbar-collapse {
     background: $white;
 }
 
@@ -207,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 .icon-bar {
     background: $gray;
 }
+
 //============================================================ Globas !
 
 
