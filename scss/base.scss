@@ -9,6 +9,7 @@ body {
 p {
     font-size: 13px;
     line-height: 22px;
+    color: #848282;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,8 +22,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
 }
 
-.h3, h3 {
+.h3, h3 { 
     font-size: 22px;
+}
+
+.h6, h6 {
+    font-size: 16px;
 }
 
 //============================================================ Base ! 
@@ -68,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-white * {
-    color: #000;
+    color: #848282;
 }
 
 
@@ -104,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     text-indent: -9999999px;
 }
 
+
 .caps {
     text-transform: uppercase;
 }
@@ -119,6 +125,23 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.text-wrap p {
+    padding-bottom: 20px;
+}
+
+.img-wrap {
+
+    img {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
+
+// Switches 
+.kill-on-mobile {
+    display: none;
+}
+
 //============================================================ Helpers !
 
 
@@ -132,8 +155,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100px;
     color: $white;
     font-family: $head;
-    font-size: 13px;
+    font-size: 14px; // change to 16 on bigger devices
     font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
 }
 
 .btn-custom:hover {
@@ -178,6 +203,27 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+//============================================================ Buttons
+
+// icon wrappers
+.icon-wrap--center {
+    width: 100%;
+    text-align: center;
+
+    .icon {
+        margin: 0 auto;
+    }
+}
+
+.icon {
+    width:  50px;
+    height: 50px;
+    background: gray url('') no-repeat 0px 0px;
+}
+
+.icon--NAME {
+    background: position;
+}
 
 
 
@@ -198,6 +244,24 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.navbar-nav {
+    margin-bottom: 0;
+}
+
+.navbar-nav li a {
+    font-size: 16px;
+    font-family: $head;
+    font-weight: 800;
+    color: $gray;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.navbar-nav a.btn-custom {
+    width: auto;
+    display: inline-block;
+}
+
 .navbar-header,
 .navbar-collapse {
     background: $white;
@@ -216,6 +280,16 @@ h1, h2, h3, h4, h5, h6 {
     background: $gray;
 }
 
+.navbar-nav a.btn-custom {
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 0;
+}
+
 //============================================================ Globas !
 
 
@@ -227,6 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 //============================================================ Heros
 .hero {
     height: 70vh;
+    max-height: 650px;
     display: block;
     width: 100%;
 }
@@ -309,6 +384,12 @@ h1, h2, h3, h4, h5, h6 {
 // === Partner Logos !
 
 
+// === innovation
+.innovation {
+
+}
+// === innovation
+
 // === Your Culture Your Workflow 
 .home-partner-wrap {
     padding: 50px;
@@ -324,10 +405,54 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center center;
     margin-bottom: 30px;
 }
+
+.your-culture-your-workflow .float-center {
+    padding-bottom: 50px;
+}
 // === Your Culture Your Workflow !
 
 
+// === Our Expertise
+// all the ex items
+.expertise-item-wrap .col-xs-6 {
+    padding: 20px 0;
+}
+
+.expertise-item-wrap .text-center {
+    max-width: 80%;
+    margin: 0 auto;
+}
+// === Our Expertise!
+
 //============================================================ Home !
+
+
+
+//============================================================ About
+
+// === Our Values
+// our value items
+.our-values-values-wrap  .value {
+    padding: 20px;
+    border-bottom: 2px solid $teal;
+
+
+}
+// === Our Values !
+
+// === Leadership
+.leadership-item .bg-white {
+    padding: 40px 30px;
+}
+
+.leadership-img {
+    overflow: hidden;
+    text-align: center;
+}
+// === Leadership !
+
+//============================================================ About !
+
 
 
 

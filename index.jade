@@ -17,21 +17,25 @@ include includes/head.jade
   section.partner-logos-home
     .container
       .row
-        .col-xs-6.col-md-2.kill-text.logo.logo--walmart Walmart
-        .col-xs-6.col-md-2.kill-text.logo.logo--sams Walmart
-        .col-xs-6.col-md-2.kill-text.logo.logo--virgin Walmart
-        .col-xs-6.col-md-2.kill-text.logo.logo--autozone Walmart
-        .col-xs-6.col-md-2.kill-text.logo.logo--purina Walmart
-        .col-xs-6.col-md-2.kill-text.logo.logo--nfm Walmart
+        .partner-logos-wrap
+          .col-xs-6.col-md-2.kill-text.logo.logo--walmart Walmart
+          .col-xs-6.col-md-2.kill-text.logo.logo--sams Walmart
+          .col-xs-6.col-md-2.kill-text.logo.logo--virgin Walmart
+          .col-xs-6.col-md-2.kill-text.logo.logo--autozone Walmart
+          .col-xs-6.col-md-2.kill-text.logo.logo--purina Walmart
+          .col-xs-6.col-md-2.kill-text.logo.logo--nfm Walmart
 
   section.section-pad.innovation
     .container
-      .text-center.float-center
-        h3.caps INNOVATION AT WORK
-        p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
-        a.btn-custom.btn--teal(href="") See Our Work
-        div.img This is the image asset
-  
+      .row
+        .col-xs-12.col-md-12
+          .text-wrap.text-center.float-center
+            h3.caps INNOVATION AT WORK
+            p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
+            a.btn-custom.btn--teal(href="") See Our Work
+            .img-wrap
+              img(src="http://placehold.it/350x150")
+    
   section.section-pad.bg-purple.what-we-do
     .container
       .col-xs-12.col-md-6 
@@ -41,18 +45,23 @@ include includes/head.jade
           p We build mobile platforms for increased communication, productivity, learning, engagement & access to job-essential data. Ultimately, our goal is to help you connect your people with purpose.
           a.btn-custom.btn--teal(href="") Learn More
       .col-xs-12.col-md-6 
-        div.img this is the image asset
+        .img-wrap
+          img(src="http://placehold.it/350x150")
 
   section.section-pad.who-we-work-with
     .container
-      .col-xs-12.col-md-6 
-        div.img this is the image asset
+      .col-xs-12.col-md-6.kill-on-mobile 
+        .img-wrap
+          img(src="http://placehold.it/350x150")
       .col-xs-12.col-md-6 
         .text-wrap
           h6.caps Who we work with 
           h2 Workforce Transformation starts with leaders like you.
           p At RevUnit we work with passionate employee advocates like CHRO’s, CEO’s, COO’s, CIO’s, & CTO’s who want to make a difference in the lives of their employees and their bottom line. Instead of using technology to “manage” staff, brands must give their people the tools to build the future.
           a.btn-custom.btn--orange(href="") Learn More
+      .col-xs-12.col-md-6 
+        .img-wrap
+          img(src="http://placehold.it/350x150")
 
   section.section-pad.bg-teal.how-we-work
     .container
@@ -63,16 +72,18 @@ include includes/head.jade
           p Your new platform for winning hearts and minds.
           a.btn-custom.btn--purple(href="") Learn More
       .col-xs-12.col-md-6 
-        div.img this is the image asset
+        .img-wrap
+          img(src="http://placehold.it/350x150")
 
 
   section.section-pad.your-culture-your-workflow
     .container
       .row
-        .text-center.float-center
-          h3.caps YOUR CULTURE, YOUR WORKFLOW.
-          p Working with the largest, most complex organizations has taught us transforming your workforce starts with enriching your current culture and reducing workflow complexity. You can see below we work with a variety of enterprise clients, we can help you too.
-          a.btn-custom.btn--orange(href="")  RevUnit’s Clients & Partners
+        .col-xs-12.col-md-12
+          .text-center.float-center
+            h3.caps YOUR CULTURE, YOUR WORKFLOW.
+            p Working with the largest, most complex organizations has taught us transforming your workforce starts with enriching your current culture and reducing workflow complexity. You can see below we work with a variety of enterprise clients, we can help you too.
+            a.btn-custom.btn--orange(href="")  Clients & Partners
       .row.workflow-wrap
         .col-xs-12.col-md-4
           .shadow.bg-white.home-partner-wrap
@@ -89,27 +100,36 @@ include includes/head.jade
 
   section.section-pad.bg-gray.expertise
     .container
-      .row
-        .text-center.float-center
-          h2.caps OUR EXPERTISE
-          p As a digital product studio specializing in workforce transformation, RevUnit is uniquely positioned to help your brand navigate the changing needs of doing business. Our mantra is Build Small. Learn Fast. Iterate Often.
-      .row.workflow-wrap
-        .col-xs-6.col-md-3
-          .text-center
-            h4.caps PRODUCT STRATEGY
-            .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
-        .col-xs-6.col-md-3
-          .text-center
-            h4.caps PRODUCT STRATEGY
-            .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
-        .col-xs-6.col-md-3
-          .text-center
-            h4.caps PRODUCT STRATEGY
-            .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
-        .col-xs-6.col-md-3
-          .text-center
-            h4.caps PRODUCT STRATEGY
-            .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
+      .col-xs-12.col-md-12
+        .row
+          .text-center.float-center
+            h2.caps OUR EXPERTISE
+            p As a digital product studio specializing in workforce transformation, RevUnit is uniquely positioned to help your brand navigate the changing needs of doing business. Our mantra is Build Small. Learn Fast. Iterate Often.
+        .row.expertise-item-wrap
+          .col-xs-6.col-md-3
+            .icon-wrap--center
+              .icon.icon--NAME
+            .text-center
+              h4.caps PRODUCT STRATEGY
+              .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
+          .col-xs-6.col-md-3
+            .icon-wrap--center
+              .icon.icon--NAME
+            .text-center
+              h4.caps PRODUCT STRATEGY
+              .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
+          .col-xs-6.col-md-3
+            .icon-wrap--center
+              .icon.icon--NAME
+            .text-center
+              h4.caps PRODUCT STRATEGY
+              .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
+          .col-xs-6.col-md-3
+            .icon-wrap--center
+              .icon.icon--NAME
+            .text-center
+              h4.caps PRODUCT STRATEGY
+              .text-wrap Building the right product for both the organization and user through innovative enterprise HR & product development strategies.
 
   //- section.blog-grid.blog-grid--home
   //-   .container
@@ -150,7 +170,7 @@ include includes/head.jade
     .container
       .col-xs-12.col-md-6 
         .text-wrap
-          h3.caps Our Values
+          h3.caps Transforming Your Workforce
           p RevUnit CEO Joe Saumweber illustrates 5 key learnings the most innovative enterprise leaders are learning from startups.
           ul.list--icon
             li
