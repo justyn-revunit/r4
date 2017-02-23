@@ -285,3 +285,14 @@ h1, h2, h3, h4, h5, h6 {
 .hero--clients .logo-wrap div {
   background: #ccc;
   height: 100px; }
+
+.person-img {
+  overflow: hidden;
+  text-align: center;
+  width: 100%; }
+
+.m-the-right-people h4 {
+  margin-top: 0; }
+
+.person-text {
+  padding: 20px; }
