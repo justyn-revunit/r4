@@ -7,6 +7,9 @@
 	<?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/gitHubStyles.php">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/modals/css/default.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/modals/css/component.css">
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/modernizr.custom.js"></script>
 </head>
 
 <body <?php body_class(); ?> >

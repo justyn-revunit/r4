@@ -14,6 +14,10 @@
   </footer>
 </div> <!-- /bbe-footer-wrap -->
 <?php endif ?>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/classie.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/modalEffects.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/cssParser.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/css-filters-polyfill.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
