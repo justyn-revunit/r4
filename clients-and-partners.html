@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- CUSTOM-->
     <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="modals/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="modals/css/component.css" />
+		<script src="modals/js/modernizr.custom.js"></script>
   </head>
   <body class="bg-lt-gray">
     <!--if lt IE 8
@@ -109,7 +112,8 @@
         <div class="text-center float-center">
           <div class="row">
             <h3 class="caps">Our Partners</h3>
-            <p>The measure of RevUnit’s success is the caliber of people we are able to attract to our cause. Selfless, smart, and innovative -- our team continues to show that the right people can overcome obstacles of scale, complexity, and innovation. We’ve got the right team.</p><a href="" class="btn-custom btn--teal">Join RevUnit's Team</a>
+            <p>The measure of RevUnit’s success is the caliber of people we are able to attract to our cause. Selfless, smart, and innovative -- our team continues to show that the right people can overcome obstacles of scale, complexity, and innovation. We’ve got the right team.</p>
+            <div class="btn-custom btn--teal md-trigger" data-modal="modal-1">Join RevUnit's Team</div>
           </div>
           <div class="row">
             <div class="logo-wrap">
@@ -224,15 +228,15 @@
 <!-- MODALS -->
     <div class="md-modal md-effect-1" id="modal-1">
 			<div class="md-content">
-				<h3>Modal Dialog</h3>
+				<h3>Join RevUnit's Team</h3>
 				<div>
-					<p>This is a modal window. You can do the following things with it:</p>
-					<ul>
-						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-						<li><strong>Close:</strong> click on the button below to close the modal.</li>
-					</ul>
-					<button class="md-close">Close me!</button>
+					<p>Join our force of amazingness and let's rule the world together!</p>
+          <div class="md-form-inputs">
+            <input type="name" placeholder="Name" id="md-form-name" /> 
+            <input type="email" placeholder="you@address.com" id="md-form-email" /> 
+            <div class="md-form-submit">Send</div>
+          </div>
+					<div class="md-close">X</div>
 				</div>
 			</div>
 		</div>
@@ -244,11 +248,15 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script>
-  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='https://www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-</script>
+<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="modals/js/classie.js"></script>
+		<script src="modals/js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="modals/js/cssParser.js"></script>
+		<script src="modals/js/css-filters-polyfill.js"></script>
