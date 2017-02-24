@@ -74,6 +74,7 @@ perspective effects (not including the modals and the overlay).
     height: 50px;
     padding-left: 25px;
 	margin-top:25px;
+	color:#000;
 }
 
 .md-form-submit{
