@@ -1,12 +1,13 @@
 
 // Colors
-$lt-gray:   #F6F6F6;
-$teal:      #29AEA9;
-$dark-teal: #25A39E;
-$purple:    #554085;
-$orange:    #FB823C;
-$gray:      #4D4D4D;
-$white:     #ffffff;
+$lt-gray:     #F6F6F6;
+$teal:        #29AEA9;
+$dark-teal:   #25A39E;
+$purple:      #554085;
+$dark-purple: #503479;
+$orange:      #FB823C;
+$gray:        #4D4D4D;
+$white:       #ffffff;
 
 // fonts
 $head: 'Roboto Condensed', sans-serif;
@@ -24,7 +25,11 @@ $logo-sams:     $img-path + 'logo--sams.svg';
 $logo-nfm:      $img-path + 'logo--nfm.svg'; 
 $logo-purina:   $img-path + 'logo--purina.svg'; 
 $logo-autozone: $img-path + 'logo--autozone.svg'; 
-$logo-virgin:   $img-path + 'logo--virgin.svg'; 
+$logo-virgin:   $img-path + 'logo--virgin.svg';
+
+//  misc icons
+$icon-book:   $img-path + 'icon--book.svg'; 
+$icon-speed:  $img-path + 'icon--speed.svg'; 
 
 
 // === page images

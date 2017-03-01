@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="350px" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--launch-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Process" transform="translate(-255.000000, -7464.000000)" fill-rule="nonzero">
+            <g id="icon--launch-1" transform="translate(255.000000, 7464.000000)">
+                <g id="Group">
+                    <polygon id="Shape" fill="#CFD8DC" points="19.4444444 330 19.4444444 0 0 0 0 350 350 350 350 330"></polygon>
+                    <path d="M253.390278,210.49 C241.159722,156.18 228.491667,100 179.861111,100 C131.1625,100 118.3875,156.29 106.040278,210.72 C93.1680556,267.5 79.6444444,323.58 29.1666667,330 L340.277778,330 C281.4875,330 266.972222,270.77 253.390278,210.49 Z" id="Shape" fill="#DBB3E8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

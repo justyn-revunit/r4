@@ -9,56 +9,59 @@ include includes/head.jade
   
   section.hero.hero--about
     .container
-      .text-wrap
-        h1 Digital Product Development 
-        h2.sub-title Build Small, Learn Fast, Iterate Often.
-        p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
-        a.btn-custom.btn--teal(href="") Learn More
-        .img-wrap
-            img(src="http://placehold.it/350x150")
+        .col-xs-12.col-md-6 
+            .text-wrap
+                h2.caps Digital Product Development 
+                h3.caps.sub-title Build Small, Learn Fast, Iterate Often.
+                p At RevUnit, we believe at the heart of creating every successful digital product must be an unrelenting focus on the experience of the end user. To bring digital products to life for users, the right philosophies, right people, and right processes must be in place from the initial idea, through the launch, and beyond. 
+                a.btn-custom.btn--teal(href="") Learn More
+        .col-xs-12.col-md-6 
+            .img-wrap
+                img(src="http://placehold.it/350x150")
 
 
 
   
-  section.bg-purple.the-right-philosopies
+  section.section-pad.bg-purple.the-right-philosopies
     .container
       .col-xs-12.col-md-6 
-        .text-wrap
+        .text-wrap.m-text-center.m-float-center
           h2.caps The Right Philosopies
           p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
       .col-xs-12.col-md-6 
         .the-right-philosopies-philosopies-wrap
             .item
                 .icon-wrap
-                    .icon.icon--NAME
+                    .icon.icon-design_thinking
                 h4.caps DESIGN THINKING
                 p Design Thinking is an industry methodology for inclusive design. It starts with a hyper focus on user empathy and welcomes participation from all product team members, not just designers.
             .item
                 .icon-wrap
-                    .icon.icon--NAME
+                    .icon.icon-agile_development
                 h4.caps DESIGN THINKING
                 p Design Thinking is an industry methodology for inclusive design. It starts with a hyper focus on user empathy and welcomes participation from all product team members, not just designers.
             .item
                 .icon-wrap
-                    .icon.icon--NAME
+                    .icon.icon-lean
                 h4.caps DESIGN THINKING
                 p Design Thinking is an industry methodology for inclusive design. It starts with a hyper focus on user empathy and welcomes participation from all product team members, not just designers.
 
 
 
 
-  section.the-right-people
+  section.section-pad.the-right-people
     .container
-        .text-wrap
+        .text-wrap.m-text-center.m-float-center
             h2.caps The Right People
             .row
             .col-xs-12.col-md-6 
                 p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
-                span Build Small. Learn Fast. Iterate Often.
+                span.moto.kill-on-mobile Build Small. Learn Fast. Iterate Often.
             .col-xs-12.col-md-6 
                 p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
+                span.moto.kill-on-desktop Build Small. Learn Fast. Iterate Often.
 
-        #the-right-peopl-slider.m-the-right-people
+        .m-the-right-people.kill-on-desktop
             .person-wrap
                 .person-img
                     img(src="http://placehold.it/150x150")
@@ -91,82 +94,130 @@ include includes/head.jade
                     p Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.
 
 
+        .the-right-people.kill-on-mobile
+            row
+                .col-xs-12.col-md-12
+                    p this is the right people slider on desktop
 
-  section.the-right-process
+  section.section-pad.section-pad.the-right-process
     .container
         .row
             .text-center.float-center
-                h3.caps THE RIGHT PROCESS
-                span icon is here
-                h4.caps Pre-Flight
+                h1.caps THE RIGHT PROCESS
+                ul.process-list
+                    li PRE-FLIGHT
+                    li THE BUILD
+                    li LAUNCH & ITERATION
+            .intro-preflight-wrap.text-center.float-center
+                .icon-wrap--center
+                    .icon.icon-preflight
+                h2.caps Pre-Flight
                 p Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper.
-        .row
+        .row.process-row
             .col-xs-12.col-md-6
-                h4.caps Problem Solving
+                h5.caps Problem Solving
+                p A key element to the Pre-Flight phase is Rapid Prototyping. The prototype is a front-end experience which has been designed to simulate the real user experience. The most essential elements of the proposed solutions can be tested and validated using feedback from real users. Building prototypes allows the team to quickly validate assumptions before expending considerable time and budget.
+            .col-xs-12.col-md-6
+                .img-wrap
+                    img(src="img/icon--process-1.svg")
+        .row.process-row
+            .col-xs-12.col-md-6.kill-on-mobile 
+                .img-wrap
+                    img(src="img/icon--process-2.svg")
+            .col-xs-12.col-md-6
+                h5.caps RAPID PROTOTYPING
                 p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
+            .col-xs-12.col-md-6.kill-on-desktop
+                .img-wrap
+                    img(src="img/icon--process-2.svg")
+        .row.process-row
             .col-xs-12.col-md-6
-                .img-wrap image asset here
-        .row
+                h5.caps USER TESTING
+                p User testing is the process of putting prototypes in front of real users. Features and assumptions are tested, and insightful feedback is provided to the product team. To be successful, user testing requires a well thought-out process and a focus on gathering quantifiable data from the qualitative experience. User testing is essential to the success of every digital product. 
+                p Usability testing can result in a 90% reduction in support costs after project completion.
+                p Up to 85% of usability issues can be found in testing of 3-5 participants, making the end user’s experience much better after preliminary user testing
             .col-xs-12.col-md-6
-                h4.caps Problem Solving
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-            .col-xs-12.col-md-6
-                .img-wrap image asset here
-        .row
-            .col-xs-12.col-md-6
-                h4.caps Problem Solving
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-            .col-xs-12.col-md-6
-                .img-wrap image asset here
+                .img-wrap
+                    img(src="img/icon--process-3.svg")
 
 
-  section.bg-purple.the-build
+  section.section-pad.bg-purple.the-build
     .container
-        .row
+        .row.process-row
             .text-center.float-center
-                span icon is here
-                h4.caps The Build
-                p Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper.
-        .row
+                .icon-wrap--center
+                    .icon.icon-build
+                h2.caps The Build
+                p After multiple rounds of user testing and prototype iteration are complete, creative and technical development begin. Adhering to our mantra--Build Small, Learn Fast, Iterate Often--we first develop a Minimum Viable Product, or MVP
+        .row.process-row
             .col-xs-12.col-md-6
-                h4.caps MVP
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
+                h5.caps MVP
+                p A Minimum Viable Product (MVP) is the first iteration of a product that fulfills the product purpose and objectives defined and validated during the preflight. MVP product development creates user validated digital products, often in shorter timelines and at lower costs. When the core product is valuable, users will actually help guide the additional feature priorities during future growth and further iterations. 
+                a(href="https://www.experiencedynamics.com/blog/2014/07/making-strong-business-case-roi-ux-infographic") https://www.experiencedynamics.com/blog/2014/07/making-strong-business-case-roi-ux-infographic 
+                a(href="https://www.experiencedynamics.com/blog/2014/07/making-strong-business-case-roi-ux-infographic") https://www.experiencedynamics.com/blog/2014/07/making-strong-business-case-roi-ux-infographic 
+                a(href="http://www.measuringu.com/five-users.php")  http://www.measuringu.com/five-users.php 
             .col-xs-12.col-md-6
-                .img-wrap image asset here
-        .row
+                .img-wrap
+                    img(src="img/icon--build-1.svg")
+        .row.process-row
+            .col-xs-12.col-md-6.kill-on-mobile 
+                .img-wrap
+                    img(src="img/icon--build-2.svg")
             .col-xs-12.col-md-6
-                h4.caps Design
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
+                h5.caps Design
+                p At RevUnit, the heart of the design process, like everything we do, is focused on the end User Experience (UX). UX is the number one guiding force in all design.
+                p Studies show 70% of projects fail due to lack of user acceptance. Source?
+                p UX Design increases the success of Key Performance Indicators by 83%
+                p In the creative process of any digital product, UX Designers use the designs and feedback generated during Rapid Prototyping and User Testing phases to create the rest of the experience. Designers focus on making the app intuitive and incorporating all functionality requirements while keeping the product visually attractive. 
+                p Our design process uses tools to make collaboration easier between Designers and Developers when building the code. Each of our UX Designers is also talented in creating the User Interface--the actual graphics, buttons, colors, and icons users will see in the app. The creative process brings all of the problem solving to life in a real, visual way.
+            .col-xs-12.col-md-6.kill-on-desktop
+                .img-wrap
+                    img(src="img/icon--build-2.svg")
+        .row.process-row
             .col-xs-12.col-md-6
-                .img-wrap image asset here
-        .row
+                h5.caps Development
+                p While the creative team is in the early stages of designing, the development team goes to work. Developers use the user stories written in the early stages of Pre-flight to understand the level of complexity and purpose of each micro-experience. They use these stories to create the code needed to build the app. 
+                p The development team works in short periods of time, known as sprints, which are essential to using the agile method. Sprints are defined as a set period of time, commonly two weeks. When planning a development process, development times are created based on the understanding of how many user stories the team can code in each sprint. 
+                p Working with sprints allows for exceptional agility. If a new design is created or a current user story is reprioritized, sprints make it easy to predict how that adjustment will affect the overall product timeline. With user stories and sprints, the development process becomes fluid and transparent for the entire team as they build the MVP and prepare for launch.
             .col-xs-12.col-md-6
-                h4.caps Development
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-            .col-xs-12.col-md-6
-                .img-wrap image asset here
+                .img-wrap
+                    img(src="img/icon--build-3.svg")
 
 
 
 
-  section.bg-teal.launch-and-iteration
+  section.section-pad.bg-teal.launch-and-iteration
     .container
-        .row
+        .row.process-row
             .text-center.float-center
-                span icon is here
-                h4.caps Launch and Iteration
-        .row
+                .icon-wrap--center
+                    .icon.icon-launch
+                h2.caps Launch and Iteration
+
+        .row.process-row
+            .col-xs-12.col-md-6.kill-on-mobile 
+                .img-wrap
+                    img(src="img/icon--launch-1.svg")
             .col-xs-12.col-md-6
-                h4.caps Product Adoption
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
+                h5.caps PRODUCT ADOPTION
+                p At RevUnit, we do not believe in the old adage, If you build it, they will come.  We do not believe in finishing a product and deploying it without a plan for success. This is why we fold Product Adoption into the process of every digital product we develop.
+                p Product Adoption is the process of successfully onboarding new users and retaining   existing ones by engaging users throughout the product lifecycle.
+                p Product Adoption does not only focus on the growth of a product or the retention of users, but instead it merges these two practices into one. We do this by employing Product Adoption Strategists from Day One of the build.
+                p On the day of launch, marketing and communication plans are in place to grow the new product’s user base. Analytics are already installed to provide real-time data about the app’s success and real-time feedback to the product team. 
+                p After launch, the Product Adoption Strategist continues to help market and grow the digital product by executing the adoption and retention plans and, based on user feedback, suggesting features or functionality to add.                       
+            .col-xs-12.col-md-6.kill-on-desktop
+                .img-wrap
+                    img(src="img/icon--launch-1.svg")
+
+        .row.process-row
             .col-xs-12.col-md-6
-                .img-wrap image asset here
-        .row
+                h5.caps ITERATION
+                p As the digital product moves into the hands of users, built-in feedback and analytics tools measure the success of each product feature included in the MVP. Rather than using a predetermined road map, our team is prepared to continually improve the product with updates based on data gathered from actual users. 
+                p Digital products built as MVP’s are intended to be iterated and improved upon. By design, they require product teams to be responsive to user feedback and then create new user stories to add to and improve the product. Through learning fast and iterating often, the well-researched MVP can quickly become a robust, yet focused digital product success.
+                p On the day of launch, marketing and communication plans are in place to grow the new product’s user base. Analytics are already installed to provide real-time data about the app’s success and real-time feedback to the product team. 
             .col-xs-12.col-md-6
-                h4.caps Iteration
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-            .col-xs-12.col-md-6
-                .img-wrap image asset here
+                .img-wrap
+                    img(src="img/icon--launch-2.svg")
 
 //- global foot
 include includes/foot.jade

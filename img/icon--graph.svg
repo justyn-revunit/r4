@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="100px" viewBox="0 0 105 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Combo Chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Process" transform="translate(-1201.000000, -2029.000000)" fill-rule="nonzero">
+            <g id="Combo-Chart" transform="translate(1201.000000, 2029.000000)">
+                <g id="Group">
+                    <g transform="translate(0.000000, 33.333333)" id="Rectangle-path" fill="#00BCD4">
+                        <rect x="88.4210526" y="0" width="16.5789474" height="66.6666667"></rect>
+                        <rect x="66.3157895" y="22.2222222" width="16.5789474" height="44.4444444"></rect>
+                        <rect x="44.2105263" y="11.1111111" width="16.5789474" height="55.5555556"></rect>
+                        <rect x="22.1052632" y="38.8888889" width="16.5789474" height="27.7777778"></rect>
+                        <rect x="0" y="27.7777778" width="16.5789474" height="38.8888889"></rect>
+                    </g>
+                    <g fill="#3F51B5">
+                        <ellipse id="Oval" cx="8.28947368" cy="27.7777778" rx="8.28947368" ry="8.33333333"></ellipse>
+                        <ellipse id="Oval" cx="30.3947368" cy="33.3333333" rx="8.28947368" ry="8.33333333"></ellipse>
+                        <ellipse id="Oval" cx="52.5" cy="13.8888889" rx="8.28947368" ry="8.33333333"></ellipse>
+                        <ellipse id="Oval" cx="74.6052632" cy="19.4444444" rx="8.28947368" ry="8.33333333"></ellipse>
+                        <ellipse id="Oval" cx="96.7105263" cy="8.33333333" rx="8.28947368" ry="8.33333333"></ellipse>
+                        <polygon id="Shape" points="94.2236842 3.33333333 74.0526316 13.6111111 51.1184211 7.77777778 29.0131579 27.2222222 9.67105263 22.5 6.90789474 33.0555556 31.7763158 39.4444444 53.8815789 20 75.1578947 25.2777778 99.1973684 13.3333333"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

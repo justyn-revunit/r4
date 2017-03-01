@@ -1,0 +1,134 @@
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) {
+    
+    //============================================================ Globas
+    // Type
+    h1, .h1 {
+        font-size: 48px;
+    }
+
+    h2, .h2 {
+        font-size: 32px;
+    }
+
+    h3, .h3 {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    h4, .h4 {
+        font-size: 22px;
+    }
+
+    h5, .h5 {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 65px;
+    }
+
+    .body-gray {
+        font-size: 18px;
+        text-transform: uppercase;
+        opacity: .6;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .btn-custom {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .navbar-nav a.btn-custom {
+        padding: 10px 30px;
+        margin-top: 6px;
+        border-radius: 50px;
+    }
+
+    .navbar-nav {
+        padding-right: 10px;
+    }
+
+    .custom-ul li {
+        font-size: 18px;
+    }
+    //============================================================ Globas !
+
+
+    .m-text-center {
+        text-align: left;
+    }
+
+    .m-float-center {
+        margin: 0;
+        max-width: none;
+    }
+
+
+    //============================================================ Home 
+    // home title
+    .hero--home h1.title {
+        // @extend .title;
+        font-size: 55px;
+        text-align: left;
+        max-width: none;
+    }
+
+    .hero--home .btn-custom {
+        float: left;
+    }
+
+    .your-culture-your-workflow h2 {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .workflow-wrap {
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .home-partner-wrap {
+        padding: 70px 50px 70px 50px;
+    }
+
+
+    //============================================================ Home !
+
+
+    //============================================================ About
+    .hero--about {
+        
+        .text-wrap {
+            padding-top: 7vh;
+        }
+
+        h4 {
+            padding-bottom: 20px;
+        }
+    }
+
+    .leadership-container {
+        width: 100%;
+    }
+
+    .our-values .our-values-intro {
+        padding-top: 100px;
+    }
+    //============================================================ About !
+
+
+    //============================================================ Our Process
+    .process-list li {
+        font-size: 20px;
+    }
+    //============================================================ Our Process !
+
+
+}
