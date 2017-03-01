@@ -20,15 +20,17 @@
             <div class="container bg-white">
               <!-- Brand and toggle get grouped for better mobile display-->
               <div class="navbar-header">
-                <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand kill-text global-brand">RevUnit</a>
+                <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php echo site_url(); ?>/" class="navbar-brand kill-text global-brand">RevUnit</a>
               </div>
               <!-- Collect the nav links, forms, and other content for toggling-->
               <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="clients-and-partners.html">Clients & Partners </a></li>
-                  <li><a href="process.html">Our Process</a></li>
-                  <li class="btn-custom"><a href="#">Schedule a Call</a></li>
+                  <li><a href="<?php echo site_url(); ?>/about">About Us</a></li>
+                  <li><a href="<?php echo site_url(); ?>/clients-and-partners">Clients & Partners </a></li>
+                  <li><a href="<?php echo site_url(); ?>/our-services">Our Services</a></li>
+                  <li><a href="<?php echo site_url(); ?>/our-process">Our Process</a></li>
+                  <li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
+                  <li class="btn-custom"><a href="<?php echo site_url(); ?>/">Schedule a Call</a></li>
                 </ul>
               </div>
             </div>
