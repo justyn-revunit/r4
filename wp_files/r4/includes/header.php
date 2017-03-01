@@ -12,15 +12,16 @@
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/modernizr.custom.js"></script>
 </head>
 
-<body <?php body_class(); ?> >
+<body class="bg-lt-gray">
 <div class="page--home"> 
+      <div class="page--home"> 
       <div class="container-fluid global-wrap">
         <header class="global-header bg-white">
           <nav class="navbar navbar-default global-nav">
             <div class="container bg-white">
               <!-- Brand and toggle get grouped for better mobile display-->
               <div class="navbar-header">
-                <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php echo site_url(); ?>/" class="navbar-brand kill-text global-brand">RevUnit</a>
+                <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php echo site_url(); ?>" class="navbar-brand kill-text global-brand">RevUnit</a>
               </div>
               <!-- Collect the nav links, forms, and other content for toggling-->
               <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -30,7 +31,7 @@
                   <li><a href="<?php echo site_url(); ?>/our-services">Our Services</a></li>
                   <li><a href="<?php echo site_url(); ?>/our-process">Our Process</a></li>
                   <li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
-                  <li class="btn-custom"><a href="<?php echo site_url(); ?>/">Schedule a Call</a></li>
+                  <li><a href="<?php echo site_url(); ?>" class="btn-custom btn--orange">Schedule a Call</a></li>
                 </ul>
               </div>
             </div>
