@@ -9,89 +9,105 @@ include includes/head.jade
   
   section.bg-purple.hero.hero--about
     .container
-      .text-wrap
-        h1 Our Mission
-        h2.sub-title We built RevUnit as a digital product studio because we recognize the impact great products have on their users.
+      .text-wrap.col-xs-12.col-md-6
+        h1.title.caps Our Mission
+        h4.sub-title We built RevUnit as a digital product studio because we recognize the impact great products have on their users.
         p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
         a.btn-custom.btn--teal(href="") Watch Our Reel
-      .img-wrap
+      .img-wrap.col-xs-12.col-md-6
           img(src="http://placehold.it/350x150")
 
 
   section.section-pad.our-people
     .container
       .text-center.float-center
-        h3.caps Our People
-        p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
+        h2.caps Our People
+        p The measure of RevUnit’s success is the caliber of people we are able to attract to our cause. Selfless, smart, and innovative -- our team continues to show that the right people can overcome obstacles of scale, complexity, and innovation. We’ve got the right team.
         a.btn-custom.btn--teal(href="") Join Our Team
         .img-wrap
           img(src="http://placehold.it/350x150")
   
-  section.section-pad.bg-teal.our-values
+  section.section-pad.bg-purple.our-values
     .container
       .col-xs-12.col-md-6 
-        .text-wrap
-          h2 Our Values
-          p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
+        .text-wrap.our-values-intro
+          h1 Our Values
+          p We are guided by principles built on who we are and aspire to be. We strive to live into these values as people and product teams.
+          ul.custom-ul
+            li 
+                span.dot •  
+                | Our values were chosen by our whole team to be simple and easy to understand phrases.
+            li
+                span.dot •  
+                | Our values are made real by the way we work and interact with each other and our partners every day.
+        a.btn-custom.bg-teal(href="#") Learn More
       .col-xs-12.col-md-6 
         .our-values-values-wrap 
-            .value.bg-dark-teal
+            .value.bg-dark-purple
                 .icon-wrap
-                    .icon.icon--NAME
-                h4.caps BE FEARLESS
-                span Design Thinking is an industry methodology for inclusive design
-            .value.bg-dark-teal
+                    .icon.icon-be_fearless
+                .text-wrap
+                    h4.caps BE FEARLESS
+                    span “There is no action without error.”  - Teddy Roosevelt
+            .value.bg-dark-purple
                 .icon-wrap
-                    .icon.icon--NAME
-                h4.caps BE FEARLESS
-                span Design Thinking is an industry methodology for inclusive design
-            .value.bg-dark-teal
+                    .icon.icon-little_better
+                .text-wrap
+                    h4.caps A LITTLE BETTER ALL THE TIME
+                    span It’s not the strongest that thrive, but those that are most adaptable to change.
+            .value.bg-dark-purple
                 .icon-wrap
-                    .icon.icon--NAME
-                h4.caps BE FEARLESS
-                span Design Thinking is an industry methodology for inclusive design
-            .value.bg-dark-teal
+                    .icon.icon-celebrate_the_win
+                .text-wrap
+                    h4.caps CELEBRATE THE WINS
+                    span Celebrate the wins and apply the learnings.
+            .value.bg-dark-purple
                 .icon-wrap
-                    .icon.icon--NAME
-                h4.caps BE FEARLESS
-                span Design Thinking is an industry methodology for inclusive design
-            .value.bg-dark-teal
+                    .icon.icon-got_your_back
+                .text-wrap
+                    h4.caps I GOT YOUR BACK, YOU GOT MINE
+                    span We work to ensure the success of our fellow team members. We assume best intent, and have patience for each other.
+            .value.bg-dark-purple
                 .icon-wrap
-                    .icon.icon--NAME
-                h4.caps BE FEARLESS
-                span Design Thinking is an industry methodology for inclusive design
+                    .icon.icon-do_the_right_thing
+                .text-wrap
+                    h4.caps DO WHAT’S RIGHT
+                    span “The time is always right to do what is right.” Martin Luther King, Jr.
 
 
 
-  section.section-pad.bg-purple.leadership-team
-    .container
+  section.section-pad.bg-teal.leadership-team
+    .container.leadership-container
         .row
-            .text-center.float-center
-                h3.caps Leadership team
-                p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.
+            .text-center.leadership-text-wrap.float-center
+                h1.caps Leadership team
+                p RevUnit is driven by the original mission of its co-founders -- to build great digital products by hiring excellent product teams. As the company continues to grow, new leaders have stepped up to carry the vision forward. Led by its passionate executive team, council, and trusted advisors.
                 a.btn-custom.btn--orange(href="") Contact Us
         .row
             .col-xs-12.col-md-4.leadership-item
                 .leadership-img
-                    img(src="http://placehold.it/150x150")
+                    img(src="img/joe.png")
                 .bg-white.text-wrap.text-center
                     h4 Joe Saumweber
-                    p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-                    a.btn-custom.btn--orange(href="") View Profile
+                    h5 CEO, CO-FOUNDER
+                    p Joe is a leader in digital transformation within the enterprise, with an emphasis on beautiful, usable tech that improves the employee experience. Joe shares his passion through education, mentoring and by founding the 479 Founders Forum.
+                    a.btn-custom.btn--purple(href="") View Profile
             .col-xs-12.col-md-4.leadership-item
                 .leadership-img
-                    img(src="http://placehold.it/150x150")
+                    img(src="img/paladino.png")
                 .bg-white.text-wrap.text-center
-                    h4 Joe Saumweber
-                    p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-                    a.btn-custom.btn--orange(href="") View Profile
+                    h4 Michael Paladino
+                    h5 CTO, CO-FOUNDER
+                    p Michael embodies the perfect balance between technical expertise and practicality. Michael knows how to architect and translate innovative technical concepts into real products for real people.
+                    a.btn-custom.btn--purple(href="") View Profile
             .col-xs-12.col-md-4.leadership-item
                 .leadership-img
-                    img(src="http://placehold.it/150x150")
+                    img(src="img/seth.png")
                 .bg-white.text-wrap.text-center
-                    h4 Joe Saumweber
-                    p Empowering your workforce requires bold, strategic initiatives to transform your organization. As a digital product studio, RevUnit is uniquely positioned to help your people adapt to the changing needs of doing business in the 21st century.                         
-                    a.btn-custom.btn--orange(href="") View Profile
+                    h4 Seth Waite
+                    h5 CMO
+                    p Seth focuses on bringing deep strategic expertise and growth strategies to the RevUnit team. Leading marketing and product adoption, Seth is a leader in growing RevUnit’s future.
+                    a.btn-custom.btn--purple(href="") View Profile
 
 
 

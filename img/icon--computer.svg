@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="102px" viewBox="0 0 143 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Laptop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Process" transform="translate(-840.000000, -2030.000000)" fill-rule="nonzero">
+            <g id="Laptop" transform="translate(840.000000, 2030.000000)">
+                <g id="Group">
+                    <path d="M125.97619,74.8 C125.97619,76.6802 124.454262,81.6 122.571429,81.6 L20.4285714,81.6 C18.5491429,81.6 17.0238095,76.6802 17.0238095,74.8 L17.0238095,3.4 C17.0238095,1.5198 18.5491429,0 20.4285714,0 L122.571429,0 C124.454262,0 125.97619,1.5198 125.97619,3.4 L125.97619,74.8 Z" id="Shape" fill="#455A64"></path>
+                    <rect id="Rectangle-path" fill="#BBDEFB" x="23.8333333" y="6.8" width="95.3333333" height="61.2"></rect>
+                    <g transform="translate(0.000000, 74.800000)" fill="#CFD8DC">
+                        <rect id="Rectangle-path" x="0" y="20.4" width="143" height="6.8"></rect>
+                        <polygon id="Shape" points="125.97619 0 17.0238095 0 0 20.4 143 20.4"></polygon>
+                    </g>
+                    <polygon id="Shape" fill="#546E7A" points="23.8333333 78.2 119.166667 78.2 125.97619 88.4 17.0238095 88.4"></polygon>
+                    <polygon id="Shape" fill="#90A4AE" points="85.1190476 88.4 57.8809524 88.4 54.4761905 95.2 88.5238095 95.2"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

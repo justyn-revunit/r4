@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="350px" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--process-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Process" transform="translate(-895.000000, -3171.000000)" fill-rule="nonzero">
+            <g id="icon--process-1" transform="translate(895.000000, 3171.000000)">
+                <g id="Group">
+                    <polygon id="Shape" fill="#CFD8DC" points="311.666667 162.790698 305 130.232558 200 151.395349 200 40.6976744 166.666667 40.6976744 166.666667 140.813953 50.8333333 67.5581395 32.5 95.2325581 159.166667 175 61.6666667 299.534884 88.3333333 319.069767 182.5 198.604651 252.5 301.976744 280.833333 284.069767 210.833333 182.325581"></polygon>
+                    <ellipse id="Oval" fill="#3F51B5" cx="183.333333" cy="170.930233" rx="58.3333333" ry="56.9767442"></ellipse>
+                    <g id="Oval" fill="#00BCD4">
+                        <ellipse cx="183.333333" cy="40.6976744" rx="41.6666667" ry="40.6976744"></ellipse>
+                        <ellipse cx="308.333333" cy="146.511628" rx="41.6666667" ry="40.6976744"></ellipse>
+                        <ellipse cx="41.6666667" cy="81.3953488" rx="41.6666667" ry="40.6976744"></ellipse>
+                        <ellipse cx="75" cy="309.302326" rx="41.6666667" ry="40.6976744"></ellipse>
+                        <ellipse cx="266.666667" cy="293.023256" rx="41.6666667" ry="40.6976744"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

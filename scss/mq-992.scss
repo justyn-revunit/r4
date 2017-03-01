@@ -1,0 +1,62 @@
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+    // Switches
+    .kill-on-mobile {
+        display: block;
+    }
+
+    .kill-on-desktop {
+        display: none;
+    }
+
+    
+    //============================================================ Globas
+    .global-brand {
+        margin-top: 12px;
+    }
+    
+    .navbar-nav li a {
+        padding-top: 20px;
+    }
+
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: transparent;
+    }
+
+    .section-pad {
+        padding: 150px 0;
+    }
+
+    .navbar-nav li:nth-child(3) {
+        padding-right: 15px;   
+    }
+    //============================================================ Globas !
+
+
+
+    //============================================================ Home
+    .expertise .float-center {
+        padding-bottom: 80px;
+    }
+    //============================================================ Home !
+
+
+    //============================================================ Process
+    .the-right-process .float-center,
+    .the-build .float-center,
+    .launch-and-iteration .float-center {
+        padding-bottom: 80px;
+    }
+    //============================================================ Process !
+
+
+    //============================================================ Clients and Partners
+    .our-people {
+        padding: 150px 0;
+    }
+    //============================================================ Clients and Partners !
+
+
+}

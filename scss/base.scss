@@ -7,7 +7,7 @@ body {
 
 // type
 p {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 22px;
     color: #848282;
 }
@@ -15,6 +15,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
     font-family: $head;
     font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 // custom type overides
@@ -26,9 +28,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22px;
 }
 
+.h5, h5 { 
+    font-size: 24px;
+}
+
 .h6, h6 {
     font-size: 16px;
 }
+
 
 //============================================================ Base ! 
 
@@ -38,19 +45,31 @@ h1, h2, h3, h4, h5, h6 {
 // backgrounds
 .bg-lt-gray {
     background-color: $lt-gray;
+    p {
+        opacity: .8;
+    }
 }
 
 .bg-teal {
     background-color: $teal;
+    p, li {
+        opacity: .8;
+    }
 }
 
 .bg-dark-teal {
     background-color: $dark-teal;
 }
 
+.bg-dark-purple {
+    background-color: $dark-purple;
+}
 
 .bg-purple {
     background-color: $purple;
+        p, li {
+        opacity: .8;
+    }
 }
 
 .bg-orange {
@@ -121,12 +140,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-center.float-center {
-    max-width: 80%;
+    width: 80%;
+    max-width: 500px;
     margin: 0 auto;
-}
-
-.text-wrap p {
-    padding-bottom: 20px;
 }
 
 .img-wrap {
@@ -142,6 +158,53 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
+.list--icon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin: 0;
+        padding-bottom: 25px;
+    }
+}
+
+.custom-ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+
+    .dot {
+        float: left;
+        font-size: 20px;
+        display: block;
+        height: 10px;
+        margin-top: -6px;
+        padding-right: 10px;
+    }
+
+    span {
+        float: left;
+    }
+}
+
+.m-text-center {
+    text-align: center;
+}
+
+.m-float-center {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
 //============================================================ Helpers !
 
 
@@ -150,7 +213,6 @@ h1, h2, h3, h4, h5, h6 {
 // custom buttons
 .btn-custom {
     display: inline-block;
-    background: red; 
     padding: 12px 35px 10px;
     border-radius: 100px;
     color: $white;
@@ -159,6 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.16em;
+    margin-top: 30px;
 }
 
 .btn-custom:hover {
@@ -203,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-//============================================================ Buttons
+//============================================================ Icons
 
 // icon wrappers
 .icon-wrap--center {
@@ -218,12 +281,49 @@ h1, h2, h3, h4, h5, h6 {
 .icon {
     width:  50px;
     height: 50px;
-    background: gray url('') no-repeat 0px 0px;
+    //background-color: gray;
 }
 
-.icon--NAME {
-    background: position;
+// sprite function
+@each $icon in $sprite_logo_svgList {
+    $sprite_logo_svgName: nth( $icon, 2 );
+    $sprite_logo_svgClass: nth( $icon, 1 );
+    .icon-#{$sprite_logo_svgName} {
+        @include cssSprite( $sprite_logo_svgClass );
+        background-size: $bgiSizeW $bgiSizeH;
+    }
 }
+
+.client-logo div {
+    margin: 0 auto;
+}
+
+.list--icon li {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.list--icon .icon {
+    display: block;
+    float: left;
+}
+
+.icon--book {
+    background: url($icon-book) no-repeat top left;
+    width: 43px;
+    height: 36px;
+    padding-right: 70px;
+}
+
+.icon--speed {
+    background: url($icon-speed) no-repeat top left;
+    width: 50px;
+    height: 36px;
+    padding-right: 70px;
+}
+
+//============================================================ Icons !
 
 
 
@@ -290,6 +390,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 
+.navbar-nav .btn-custom:hover {
+    background-color: $orange;
+}
+
 //============================================================ Globas !
 
 
@@ -301,9 +405,11 @@ h1, h2, h3, h4, h5, h6 {
 //============================================================ Heros
 .hero {
     height: 70vh;
+    min-height: 610px;
     max-height: 650px;
     display: block;
     width: 100%;
+    overflow: hidden;
 }
 
 //============================================================ Heros !
@@ -338,12 +444,24 @@ h1, h2, h3, h4, h5, h6 {
     height: 226px;
     background: transparent url($img-hero-home) no-repeat bottom center;
 }
+
+.expertise-item-wrap .text-center {
+    min-height: 230px;
+}
+
+.expertise-item-wrap .col-xs-6 {
+     padding: 0px 0 20px;
+}
 // === Hero !
 
 
 
 // === Partner Logos
 // brand logos
+.partner-logos-wrap {
+    padding: 30px;
+}
+
 .partner-logos-home {
     // center the logo images 
     text-align: center;
@@ -430,24 +548,109 @@ h1, h2, h3, h4, h5, h6 {
 
 //============================================================ About
 
+.hero--about .sub-title {
+    opacity: .5;
+    padding-bottom: 10px;
+}
+
 // === Our Values
+.our-values-values-wrap {
+    padding-top: 40px;
+}
+
 // our value items
 .our-values-values-wrap  .value {
     padding: 20px;
-    border-bottom: 2px solid $teal;
+    //border-bottom: 2px solid $purple;
+    overflow: hidden;
+    padding: 32px 20px 20px;
+    margin-bottom: 5px;
+    padding-bottom: 23px;
 
+    .icon-wrap {
+        float: left;
+        height: 100%;
+        padding-right: 30px;
+        padding-top: 4px;
+        padding-left: 10px;
+        height: 60px;
+    }
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
 
 }
+
+.our-values.bg-purple li {
+    opacity: 1;
+}
+
+.our-values.bg-purple li span.text {
+    opacity: .8;
+    float: left;
+    display: inline-block;
+    width: 79%;
+}
+
+.our-values p {
+    padding-bottom: 25px;
+}
+
+.our-values .img-wrap {
+    padding: 0 60px;
+}
+
 // === Our Values !
 
+.leadership-container {
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 1170px;
+}
+
 // === Leadership
+.leadership-item {
+
+    h4 {
+        color: $gray;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    h5 {
+        margin-top: 8px;
+        font-size: 18px;
+    }
+
+    p {
+        padding-top: 10px;
+    }
+}
+
+.leadership-text-wrap {
+    padding-bottom: 50px;
+}
+
+// overide the p opacity from the parent
+.bg-teal .leadership-item .text-wrap p {
+    opacity: 1;
+    color: #393636
+}
+
 .leadership-item .bg-white {
-    padding: 40px 30px;
+    padding: 40px 50px 80px 40px;
+}
+
+.leadership-team .text-wrap {
+    position: relative; // on desktop the buttons will be based off this
 }
 
 .leadership-img {
     overflow: hidden;
     text-align: center;
+    padding-top: 50px;
 }
 // === Leadership !
 
@@ -458,8 +661,8 @@ h1, h2, h3, h4, h5, h6 {
 
 //============================================================ Clients
 .hero--clients .logo-wrap div {
-    background: #ccc;
     height: 100px;
+    background-repeat: no-repeat;
 }
 //============================================================ Clients !
 
@@ -474,12 +677,90 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+.the-right-people h2 {
+    padding-left: 15px;
+}
+
 .m-the-right-people h4 {
     margin-top: 0;
 }
 
 .person-text {
     padding: 20px;
+}
+
+.person-wrap {
+    padding-bottom: 60px;
+}
+
+.the-right-philosopies {
+
+}
+
+.the-right-philosopies-philosopies-wrap .icon-wrap {
+    float: left;
+    min-height: 200px;
+    padding-right: 25px;
+
+    .icon {
+        position: relative;
+        top: 30px;
+    }
+}
+
+.the-right-philosopies-philosopies-wrap .item {
+    float: left;
+}
+
+.the-right-process.section-pad {
+    padding-top: 0;
+}
+
+.the-right-process {
+    h1 {
+        margin-bottom: 5px;
+    }
+}
+.process-list {
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+    display: inline-block;
+
+    li {
+        list-style: none;
+        float: left;
+        font-size: 15px;
+        padding-left: 10px;
+        opacity: .6;
+        font-weight: 800;
+    }
+
+    li:first-child {
+        padding-left: 0;
+    }
+}
+
+.moto {
+    color: $teal;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.intro-preflight-wrap {
+    padding-top: 30px;
+}
+
+.the-right-process .img-wrap,
+.the-build .img-wrap,
+.launch-and-iteration .img-wrap {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.process-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 //============================================================ Our Process !

@@ -1,0 +1,57 @@
+
+
+@mixin cssSprite( $spriteVals ) {
+	width: nth( $spriteVals, 1 );
+	height: nth( $spriteVals, 2 );
+	background-repeat: no-repeat;
+	background-image: url( #{ nth( $spriteVals, 3 ) } );
+	background-position: nth( $spriteVals, 4 ) nth( $spriteVals, 5 );
+}
+
+
+
+// img path
+$sprite_logo_svgPath: '../img/sprite_logo.svg';
+
+// logo var -- not needed
+$sprite_logo_svgURL:  $sprite_logo_svgPath;
+
+// sizes
+$bgiSizeW: 1110px;
+$bgiSizeH: 1110px;
+
+// spite logos
+$active_directory: 195px 48px $sprite_logo_svgURL -323px -657px  ;
+$pivotal_tracker: 75px 75px $sprite_logo_svgURL -106px -643px  ;
+$angular: 70.5px 75px $sprite_logo_svgURL -930px -498px  ;
+$zeplin: 78.80434782608695px 75px $sprite_logo_svgURL -104px -498px  ;
+$zendesk: 88px 63px $sprite_logo_svgURL -630px -504px  ;
+$trello: 150px 46px $sprite_logo_svgURL -346px -513px  ;
+$build: 40px 40px $sprite_logo_svgURL -654px -661px  ;
+$preflight: 41px 41px $sprite_logo_svgURL -653px -899px  ;
+$little_better: 36px 40px $sprite_logo_svgURL -947px -900px  ;
+$lean: 36px 34px $sprite_logo_svgURL -403px -799px  ;
+$launch: 24px 43px $sprite_logo_svgURL -131px -999px  ;
+$iterate: 37.999999999999986px 38px $sprite_logo_svgURL -655px -797px  ;
+$got_your_back: 36px 39px $sprite_logo_svgURL -125px -797px  ;
+$do_the_right_thing: 37.999999999999986px 38px $sprite_logo_svgURL -402px -901px  ;
+$design_thinking: 37px 40px $sprite_logo_svgURL -947px -796px  ;
+$contact_us: 36px 36px $sprite_logo_svgURL -403px -1003px  ;
+$celebrate_the_win: 36px 38px $sprite_logo_svgURL -656px -1002px  ;
+$call_us: 34px 34px $sprite_logo_svgURL -948px -1004px  ;
+$be_fearless: 40px 40px $sprite_logo_svgURL -123px -900px  ;
+$agile_development: 42px 30px $sprite_logo_svgURL -944px -666px  ;
+$sap: 117px 58px $sprite_logo_svgURL -615px -59px  ;
+$adp: 135px 62px $sprite_logo_svgURL -353px -57px  ;
+$nitrous_effect: 133px 74px $sprite_logo_svgURL -899px -51px  ;
+$slack: 160px 48px $sprite_logo_svgURL -885px -364px  ;
+$sketch: 67px 61px $sprite_logo_svgURL -640px -358px  ;
+$ionic: 140px 49px $sprite_logo_svgURL -351px -364px  ;
+$invision: 66px 66px $sprite_logo_svgURL -110px -355px  ;
+$jira: 140px 57px $sprite_logo_svgURL -895px -208px  ;
+$ios: 75px 48px $sprite_logo_svgURL -636px -213px  ;
+$ruby: 69px 68px $sprite_logo_svgURL -109px -203px  ;
+$box: 112px 62px $sprite_logo_svgURL -87px -57px  ;
+$photoshop: 70px 68px $sprite_logo_svgURL -386px -203px  ;
+$sprite_logo_svgList: $active_directory active_directory, $pivotal_tracker pivotal_tracker, $angular angular, $zeplin zeplin, $zendesk zendesk, $trello trello, $build build, $preflight preflight, $little_better little_better, $lean lean, $launch launch, $iterate iterate, $got_your_back got_your_back, $do_the_right_thing do_the_right_thing, $design_thinking design_thinking, $contact_us contact_us, $celebrate_the_win celebrate_the_win, $call_us call_us, $be_fearless be_fearless, $agile_development agile_development, $sap sap, $adp adp, $nitrous_effect nitrous_effect, $slack slack, $sketch sketch, $ionic ionic, $invision invision, $jira jira, $ios ios, $ruby ruby, $box box, $photoshop photoshop;
+

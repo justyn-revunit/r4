@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="270px" height="350px" viewBox="0 0 270 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--build-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Process" transform="translate(-935.000000, -6350.000000)" fill-rule="nonzero">
+            <g id="icon--build-3" transform="translate(935.000000, 6350.000000)">
+                <g id="Group">
+                    <polygon id="Shape" fill="#90CAF9" points="270 350 0 350 0 0 185.625 0 270 83.3333333"></polygon>
+                    <polygon id="Shape" fill="#E1F5FE" points="257.34375 91.6666667 177.1875 91.6666667 177.1875 12.5"></polygon>
+                    <path d="M86.90625,264.166667 L30.375,208.333333 L86.90625,152.5 L98.71875,164.166667 L54,208.333333 L98.71875,252.5 L86.90625,264.166667 Z M239.625,208.333333 L183.09375,152.5 L171.28125,164.166667 L216,208.333333 L171.28125,252.5 L183.09375,264.166667 L239.625,208.333333 Z M167.90625,113.333333 L151.875,108.333333 L102.09375,303.333333 L118.125,308.333333 L167.90625,113.333333 Z" id="Shape" fill="#1976D2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

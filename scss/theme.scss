@@ -1,2 +1,7 @@
 @import 'vars';
+@import 'mixins';
 @import 'base';
+
+// MQs
+@import 'mq-768';
+@import 'mq-992';
