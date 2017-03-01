@@ -507,6 +507,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/process_slider_01.png": {
+		"ft": 32768,
+		"iS": 144657,
+		"oA": 0,
+		"oAP": "\/img\/process_slider_01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process_slider_02.png": {
+		"ft": 32768,
+		"iS": 144966,
+		"oA": 0,
+		"oAP": "\/img\/process_slider_02.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process_slider_03.png": {
+		"ft": 32768,
+		"iS": 145921,
+		"oA": 0,
+		"oAP": "\/img\/process_slider_03.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process_slider_04.png": {
+		"ft": 32768,
+		"iS": 144341,
+		"oA": 0,
+		"oAP": "\/img\/process_slider_04.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/seth.png": {
 		"ft": 32768,
 		"iS": 112347,
@@ -624,6 +656,105 @@
 		"oA": 2,
 		"oAP": "\/LICENSE.txt",
 		"oF": 0
+		},
+	"\/modals\/css\/component.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/modals\/css\/component-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/modals\/css\/default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/modals\/css\/default-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/modals\/fonts\/codropsicons\/codropsicons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modals\/fonts\/codropsicons\/codropsicons.eot",
+		"oF": 0
+		},
+	"\/modals\/fonts\/codropsicons\/codropsicons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modals\/fonts\/codropsicons\/codropsicons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/modals\/fonts\/codropsicons\/codropsicons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modals\/fonts\/codropsicons\/codropsicons.ttf",
+		"oF": 0
+		},
+	"\/modals\/fonts\/codropsicons\/codropsicons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modals\/fonts\/codropsicons\/codropsicons.woff",
+		"oF": 0
+		},
+	"\/modals\/fonts\/codropsicons\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modals\/fonts\/codropsicons\/license.txt",
+		"oF": 0
+		},
+	"\/modals\/js\/classie.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modals\/js\/classie-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/modals\/js\/css-filters-polyfill.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modals\/js\/css-filters-polyfill-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/modals\/js\/cssParser.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modals\/js\/cssParser-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/modals\/js\/modalEffects.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modals\/js\/modalEffects-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/modals\/js\/modernizr.custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modals\/js\/modernizr.custom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/process.html": {
 		"ft": 8192,
@@ -757,10 +888,54 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp_files\/r4\/css\/css.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/css\/css.zip",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp_files\/r4\/css\/index-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp_files\/r4\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp_files\/r4\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/wp_files\/r4\/functions.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp_files\/r4\/functions.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/gitHubStyles.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/gitHubStyles.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/footer.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/header.php",
 		"oF": 0
 		},
 	"\/wp_files\/r4\/style.css": {
