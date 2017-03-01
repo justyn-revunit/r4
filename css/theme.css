@@ -1,3 +1,227 @@
+.icon-active_directory {
+  width: 195px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -323px -657px; }
+
+.icon-pivotal_tracker {
+  width: 75px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -106px -643px; }
+
+.icon-angular {
+  width: 70.5px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -930px -498px; }
+
+.icon-zeplin {
+  width: 78.8043478261px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -104px -498px; }
+
+.icon-zendesk {
+  width: 88px;
+  height: 63px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -630px -504px; }
+
+.icon-trello {
+  width: 150px;
+  height: 46px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -346px -513px; }
+
+.icon-build {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -654px -661px; }
+
+.icon-preflight {
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -653px -899px; }
+
+.icon-little_better {
+  width: 36px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -947px -900px; }
+
+.icon-lean {
+  width: 36px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -403px -799px; }
+
+.icon-launch {
+  width: 24px;
+  height: 43px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -131px -999px; }
+
+.icon-iterate {
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -655px -797px; }
+
+.icon-got_your_back {
+  width: 36px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -125px -797px; }
+
+.icon-do_the_right_thing {
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -402px -901px; }
+
+.icon-design_thinking {
+  width: 37px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -947px -796px; }
+
+.icon-contact_us {
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -403px -1003px; }
+
+.icon-celebrate_the_win {
+  width: 36px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -656px -1002px; }
+
+.icon-call_us {
+  width: 34px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -948px -1004px; }
+
+.icon-be_fearless {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -123px -900px; }
+
+.icon-agile_development {
+  width: 42px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -944px -666px; }
+
+.icon-sap {
+  width: 117px;
+  height: 58px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -615px -59px; }
+
+.icon-adp {
+  width: 135px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -353px -57px; }
+
+.icon-nitrous_effect {
+  width: 133px;
+  height: 74px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -899px -51px; }
+
+.icon-slack {
+  width: 160px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -885px -364px; }
+
+.icon-sketch {
+  width: 67px;
+  height: 61px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -640px -358px; }
+
+.icon-ionic {
+  width: 140px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -351px -364px; }
+
+.icon-invision {
+  width: 66px;
+  height: 66px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -110px -355px; }
+
+.icon-jira {
+  width: 140px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -895px -208px; }
+
+.icon-ios {
+  width: 75px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -636px -213px; }
+
+.icon-ruby {
+  width: 69px;
+  height: 68px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -109px -203px; }
+
+.icon-box {
+  width: 112px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -87px -57px; }
+
+.icon-photoshop {
+  width: 70px;
+  height: 68px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite_logo.svg);
+  background-position: -386px -203px; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -470,6 +694,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 36px;
   padding-right: 70px; }
 
+.icon-active_directory {
+  background: url(../img/active_directory.svg) no-repeat top left;
+  width: 55px; }
+
+.icon-adp {
+  background: url(../img/adp.svg) no-repeat top left;
+  width: 138px; }
+
+.icon-zendesk {
+  background: url(../img/zendesk.svg) no-repeat top left; }
+
+.icon-sap {
+  background: url(../img/sap.svg) no-repeat top left; }
+
 .global-wrap {
   padding: 0; }
 
@@ -686,6 +924,48 @@ h1, h2, h3, h4, h5, h6 {
   height: 100px;
   background-repeat: no-repeat; }
 
+.client-logo {
+  height: 100px; }
+
+div.icon-pivotal_tracker {
+  margin-top: 12px; }
+
+div.icon-trello {
+  margin-top: 25px; }
+
+div.icon-jira {
+  margin-top: 20px; }
+
+div.icon-slack {
+  margin-top: 26px; }
+
+div.icon-invision {
+  margin-top: 17px; }
+
+div.icon-invision {
+  margin-top: 21px; }
+
+div.icon-zeplin {
+  margin-top: 9px; }
+
+div.icon-ios {
+  margin-top: 26px; }
+
+div.icon-angular {
+  margin-top: 12px; }
+
+div.icon-ruby {
+  margin-top: 16px; }
+
+div.icon-ionic {
+  margin-top: 25px; }
+
+div.icon-sketch {
+  margin-top: 20px; }
+
+.integrations h2 {
+  padding-bottom: 30px; }
+
 .person-img {
   overflow: hidden;
   text-align: center;
@@ -815,7 +1095,11 @@ h1, h2, h3, h4, h5, h6 {
   .our-values .our-values-intro {
     padding-top: 100px; }
   .process-list li {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .client-logo {
+    height: 130px; }
+  .our-stack h2 {
+    padding-bottom: 10px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {

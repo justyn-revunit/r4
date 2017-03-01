@@ -323,6 +323,30 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 70px;
 }
 
+
+
+// Custom Icons Added for Qucik dev !!! -- Fix after deployment 
+.icon-active_directory {
+    background: url(../img/active_directory.svg) no-repeat top left;
+    width: 55px;
+}
+
+.icon-adp {
+    background: url(../img/adp.svg) no-repeat top left;
+    width: 138px;
+}
+
+.icon-zendesk {
+    background: url(../img/zendesk.svg) no-repeat top left;
+}
+
+.icon-sap {
+    background: url(../img/sap.svg) no-repeat top left;
+}
+
+
+
+
 //============================================================ Icons !
 
 
@@ -664,6 +688,64 @@ h1, h2, h3, h4, h5, h6 {
     height: 100px;
     background-repeat: no-repeat;
 }
+
+.client-logo {
+    height: 100px;
+}
+
+// logo fixes
+div.icon-pivotal_tracker {
+    margin-top: 12px;
+}
+
+div.icon-trello {
+    margin-top: 25px;
+}
+
+div.icon-jira {
+    margin-top: 20px;
+}
+
+div.icon-slack {
+    margin-top: 26px;
+}
+
+div.icon-invision {
+    margin-top: 17px;
+}
+
+div.icon-invision {
+    margin-top: 21px
+}
+
+div.icon-zeplin {
+    margin-top: 9px;
+}
+
+div.icon-ios {
+    margin-top: 26px;
+}
+
+div.icon-angular {
+    margin-top: 12px;
+}
+
+div.icon-ruby {
+    margin-top: 16px;
+}
+
+div.icon-ionic {
+    margin-top: 25px;
+}
+
+div.icon-sketch {
+    margin-top: 20px;
+}
+
+.integrations h2 {
+    padding-bottom: 30px;
+}
+
 //============================================================ Clients !
 
 
