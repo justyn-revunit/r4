@@ -11,6 +11,9 @@
 	max-width:60vw;
 	margin: 0 auto;
 }
+.global-nav, .global-header{
+    background-color:#fff !important;
+}
 #main-nav{
     display: none !important;
 }
