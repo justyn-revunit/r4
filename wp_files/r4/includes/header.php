@@ -31,7 +31,7 @@
                   <li><a href="<?php echo site_url(); ?>/our-services">Our Services</a></li>
                   <li><a href="<?php echo site_url(); ?>/our-process">Our Process</a></li>
                   <li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
-                  <li><a href="<?php echo site_url(); ?>" class="btn-custom btn--orange">Schedule a Call</a></li>
+                  <li><a href="<?php echo site_url(); ?>/contact" class="btn-custom btn--orange">Schedule a Call</a></li>
                 </ul>
               </div>
             </div>

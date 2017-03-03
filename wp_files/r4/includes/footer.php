@@ -6,9 +6,10 @@
 	  <?php dynamic_sidebar('footer-widget-area'); ?>
 	</div>
 	<hr/>
-	<div class="row">
+	<div class="row r4-footer">
 	  <div class="col-lg-12 site-sub-footer">
-		<?php bbe_footer() ?>
+		<?php //bbe_footer() ?>
+			Copyright 2017 RevUnit, LLC - All Rights Reserved
 	  </div>
 	</div>
   </footer>

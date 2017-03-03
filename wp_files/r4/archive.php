@@ -1,5 +1,4 @@
 <?php get_template_part('includes/header'); ?>
-
 <div class="container">
   <div class="row">
     
@@ -14,7 +13,7 @@
         <div class="clearfix"></div>
         <hr>
         
-        <?php get_template_part('includes/loops/content', get_post_format().get_theme_mod('archives_template')); ?>
+        <?php get_template_part('includes/loops/content-archive', get_post_format().get_theme_mod('archives_template')); ?>
       </div><!-- /#content -->
     </div>
     <?php if ((get_theme_mod('archives_template')=='')): ?>
