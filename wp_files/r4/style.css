@@ -157,6 +157,10 @@
     color: #fff;
     text-align: center;
 }
+.home-hero-iphone{
+    margin-top: 100px;
+    margin-left: -230px;
+}
 
 /*Body*/
 body {
