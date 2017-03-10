@@ -54,8 +54,28 @@
         padding-right: 10px;
     }
 
+    .navbar-nav li a {
+        padding-top: 18px;
+    }
+
     .custom-ul li {
         font-size: 18px;
+    }
+
+    .navbar-collapse.collapse {
+        padding-top: 10px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-nav {
+        padding-right: 15px;
+    }
+
+    .global-brand {
+        width: 147px;
+        margin-top: 18px;
     }
     //============================================================ Globas !
 
@@ -98,6 +118,10 @@
         padding: 70px 50px 70px 50px;
     }
 
+    .expertise-item-wrap .text-center {
+        min-height: 0;
+    }
+
 
     //============================================================ Home !
 
@@ -106,7 +130,7 @@
     .hero--about {
         
         .text-wrap {
-            padding-top: 7vh;
+            padding-top: 120px;
         }
 
         h4 {

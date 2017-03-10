@@ -48,9 +48,8 @@ $invision: 66px 66px $sprite_logo_svgURL -110px -355px  ;
 $jira: 140px 57px $sprite_logo_svgURL -895px -208px  ;
 $ios: 75px 48px $sprite_logo_svgURL -636px -213px  ;
 $ruby: 69px 68px $sprite_logo_svgURL -109px -203px  ;
-$box: 112px 62px $sprite_logo_svgURL -87px -57px  ;
 $photoshop: 70px 68px $sprite_logo_svgURL -386px -203px  ;
-$sprite_logo_svgList: $active_directory active_directory, $pivotal_tracker pivotal_tracker, $angular angular, $zeplin zeplin, $zendesk zendesk, $trello trello, $build build, $preflight preflight, $little_better little_better, $lean lean, $launch launch, $iterate iterate, $got_your_back got_your_back, $do_the_right_thing do_the_right_thing, $design_thinking design_thinking, $contact_us contact_us, $celebrate_the_win celebrate_the_win, $call_us call_us, $be_fearless be_fearless, $agile_development agile_development, $sap sap, $adp adp, $nitrous_effect nitrous_effect, $slack slack, $sketch sketch, $ionic ionic, $invision invision, $jira jira, $ios ios, $ruby ruby, $box box, $photoshop photoshop;
+$sprite_logo_svgList: $active_directory active_directory, $pivotal_tracker pivotal_tracker, $angular angular, $zeplin zeplin, $zendesk zendesk, $trello trello, $build build, $preflight preflight, $little_better little_better, $lean lean, $launch launch, $iterate iterate, $got_your_back got_your_back, $do_the_right_thing do_the_right_thing, $design_thinking design_thinking, $contact_us contact_us, $celebrate_the_win celebrate_the_win, $call_us call_us, $be_fearless be_fearless, $agile_development agile_development, $sap sap, $adp adp, $nitrous_effect nitrous_effect, $slack slack, $sketch sketch, $ionic ionic, $invision invision, $jira jira, $ios ios, $ruby ruby, $photoshop photoshop;
 
 
 @each $icon in $sprite_logo_svgList {

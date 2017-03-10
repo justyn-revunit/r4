@@ -301,6 +301,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/Home Page Design.png": {
+		"ft": 32768,
+		"iS": 327460,
+		"oA": 0,
+		"oAP": "\/img\/Home Page Design.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/home--hero--mobile.png": {
 		"ft": 32768,
 		"iS": 50331,
@@ -467,6 +475,82 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/logo--box.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--box.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--gray--autozone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--gray--autozone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--gray--nfm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--gray--nfm.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--gray--purina.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--gray--purina.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--gray--sams.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--gray--sams.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--gray--virgin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--gray--virgin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--gray--walmart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo--gray--walmart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo--large.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/logo--large.sketch",
+		"oF": 0
+		},
 	"\/img\/logo--large.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -594,6 +678,16 @@
 		"oAP": "\/img\/seth.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/img\/sprite_logo 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sprite_logo 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/sprite_logo.svg": {
 		"ft": 2097152,
@@ -946,6 +1040,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp_files\/r4\/archive.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/archive.php",
+		"oF": 0
+		},
 	"\/wp_files\/r4\/css\/css.zip": {
 		"ft": 8192,
 		"oA": 2,
@@ -994,6 +1094,66 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp_files\/r4\/includes\/header.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/loops\/content-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/loops\/content-page.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/loops\/content-search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/loops\/content-search.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/loops\/content-single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/loops\/content-single.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/loops\/content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/loops\/content.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/loops\/featured.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/loops\/featured.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/related-posts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/related-posts.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/includes\/sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/sidebar.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/index.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/search.php",
+		"oF": 0
+		},
+	"\/wp_files\/r4\/single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/single.php",
 		"oF": 0
 		},
 	"\/wp_files\/r4\/style.css": {
