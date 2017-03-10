@@ -95,46 +95,59 @@
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--01.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 .person02BW{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--02.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 .person03BW{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--03.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 .person04BW{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--04.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 
 .person01{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--01.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 .person02{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--02.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 .person03{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--03.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
 }
 .person04{
     background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--04.png') no-repeat center bottom;
     background-size:134px 166px;
     background-position:center bottom;
+    transition: opacity .3s;
+}
+
+.activeBg{
+    transition: opacity .3s;
 }
 
 .activeDescription{
     display:block;
+    transition: opacity .3s;
 }
 .peopleCarousel{
     background-color:#fff;
