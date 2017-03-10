@@ -17,7 +17,12 @@
 #main-nav{
     display: none !important;
 }
-
+.btn--orange{
+    color:#fff !important;
+}
+.btn--orange:hover{
+    color:#777 !important;
+}
 .blog-container{
     padding:40px;
 }
@@ -67,6 +72,94 @@
 }
 .blog_content_container{
     padding:15px;
+}
+
+/*Carousel*/
+.redBg{
+    height:225px;
+    background-color:#fff;
+}
+.purpleBg{
+    height:250px;
+    color:#fff;
+    background-color:#29AEA9;
+    display:none;
+}
+.purpleBgMob{
+    color:#fff;
+    background-color:#29AEA9;
+    display:block;
+    padding:25px;
+}
+.person01BW{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--01.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+.person02BW{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--02.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+.person03BW{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--03.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+.person04BW{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider_bw--04.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+
+.person01{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--01.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+.person02{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--02.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+.person03{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--03.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+.person04{
+    background: url('http://rev4.flywheelsites.com/wp-content/themes/img/process-slider--04.png') no-repeat center bottom;
+    background-size:134px 166px;
+    background-position:center bottom;
+}
+
+.activeDescription{
+    display:block;
+}
+.peopleCarousel{
+    background-color:#fff;
+}
+.carousel_title{
+    color:#fff;
+}
+.carousel_content{
+    color:#fff;
+    padding:25px;
+    margin-top:25px;
+}
+/* /Carousel */
+.client-logo{
+    background-position: center center;
+    background-size: contain;
+}
+#bbe-footer-wrap{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.home-hero-iphone{
+    margin-top: 100px;
+    margin-left: -230px;
 }
 
 /*Body*/
