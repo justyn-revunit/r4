@@ -24,5 +24,10 @@
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/cssParser.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/css-filters-polyfill.js"></script>
 <?php wp_footer(); ?>
+<script>
+jQuery(window).on("load",function(){
+	jQuery('grammarly-btn').remove();
+})
+</script>
 </body>
 </html>

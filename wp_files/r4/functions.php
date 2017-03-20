@@ -120,4 +120,29 @@ setInterval(function(){
 
 add_shortcode( 'r4_carousel', 'r4_carousel_function' );
 
+function get_blog_posts($atts){
+    $category   = $atts['category'];
+    $number     = $atts['number'];
+    $args = array(
+	'posts_per_page'   => $number,
+	'offset'           => 0,
+	'category_name'    => $category,
+	'orderby'          => 'date',
+	'order'            => 'DESC',
+	'post_type'        => 'post',
+	'post_status'      => 'publish',
+	'suppress_filters' => true 
+    );
+    $posts_array = get_posts( $args );
+    if(count($posts_array)>0){
+        $header = '';
+        $footer = '';
+        foreach($posts_array as $p){
+
+        }
+    } else {
+        $posts = '';
+    }
+}// get_blog_posts
+add_shortcode( 'blog_posts', 'get_blog_posts' );
 ?>
