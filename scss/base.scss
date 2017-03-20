@@ -894,19 +894,121 @@ div.icon-box {
 
 
 
+//============================================================ Blog Landing
+.hero--blog-landing {
+
+    .text-wrap {
+        text-align: left;
+    }
+
+}
+
+.blog-row {
+    padding-bottom: 25px;
+}
+
+.grid-blog-post {
+    overflow: hidden;
+    display: block;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+
+    .img-wrap img {
+        padding-top: 0;
+    }
+
+    .text-wrap {
+        padding: 30px;
+    }
+
+    h4 {
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+.blog-grid-cat {
+    color: $teal;
+    font-weight: 600;
+    letter-spacing: .05em;
+    font-size: 16px;
+}
+
+
+//============================================================ Blog Landing !
+
+
+//============================================================ Blog Post
+
+.hero--blog-post .container {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.blog-post-wrap  {
+
+    h2 {
+        padding-bottom: 10px;
+    }
+
+    p {
+            padding: 20px 0 10px;
+    }
+}
+
+
+//============================================================ Blog Post !
+
+.blog-sidebar-articles {
+    
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+        padding: 15px 0;
+        border-top:  solid 1px #000;
+        float: left;
+        width: 100%;
+
+        &:last-child {
+            border-bottom:  solid 1px #000;
+        }
+
+        div {
+            float: left;
+            overflow: hidden;
+            width: auto;
+        }
+
+    }
+
+    img {
+        padding-right: 20px;
+        float: left;
+    }
+
+    span {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+}
 
 
 
 //============================================================ Testing | Remove before prodction
-body {
-    // background: transparent url($test-img) no-repeat top center;
-}
-
-// .bg-teal,
-// .bg-purple,
-// .bg-orange,
-// .bg-gray {
-//     background: none !important;
-// }
 
 //============================================================ Testing !

@@ -37,6 +37,34 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/blog-landing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog-landing.html",
+		"oF": 0
+		},
+	"\/blog-landing.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/blog-landing.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/blog-post.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog-post.html",
+		"oF": 0
+		},
+	"\/blog-post.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/blog-post.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -263,6 +291,22 @@
 		"oAP": "\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/img\/about-hero--01.png": {
+		"ft": 32768,
+		"iS": 31570,
+		"oA": 0,
+		"oAP": "\/img\/about-hero--01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/about-people--01.jpg": {
+		"ft": 16384,
+		"iS": 85101,
+		"oA": 0,
+		"oAP": "\/img\/about-people--01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/active-directory.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -301,11 +345,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/Home Page Design.png": {
+	"\/img\/hero-process--01.png": {
 		"ft": 32768,
-		"iS": 327460,
+		"iS": 230158,
 		"oA": 0,
-		"oAP": "\/img\/Home Page Design.png",
+		"oAP": "\/img\/hero-process--01.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -314,6 +358,14 @@
 		"iS": 50331,
 		"oA": 0,
 		"oAP": "\/img\/home--hero--mobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/home-hero--iphone---03.png": {
+		"ft": 32768,
+		"iS": 264789,
+		"oA": 0,
+		"oAP": "\/img\/home-hero--iphone---03.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -628,6 +680,70 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/process-slider--01.png": {
+		"ft": 32768,
+		"iS": 5610,
+		"oA": 0,
+		"oAP": "\/img\/process-slider--01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider--02.png": {
+		"ft": 32768,
+		"iS": 3225,
+		"oA": 0,
+		"oAP": "\/img\/process-slider--02.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider--03.png": {
+		"ft": 32768,
+		"iS": 2089,
+		"oA": 0,
+		"oAP": "\/img\/process-slider--03.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider--04.png": {
+		"ft": 32768,
+		"iS": 3729,
+		"oA": 0,
+		"oAP": "\/img\/process-slider--04.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider_bw--01.png": {
+		"ft": 32768,
+		"iS": 4048,
+		"oA": 0,
+		"oAP": "\/img\/process-slider_bw--01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider_bw--02.png": {
+		"ft": 32768,
+		"iS": 2321,
+		"oA": 0,
+		"oAP": "\/img\/process-slider_bw--02.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider_bw--03.png": {
+		"ft": 32768,
+		"iS": 1628,
+		"oA": 0,
+		"oAP": "\/img\/process-slider_bw--03.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/process-slider_bw--04.png": {
+		"ft": 32768,
+		"iS": 2701,
+		"oA": 0,
+		"oAP": "\/img\/process-slider_bw--04.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/process_slider_01.png": {
 		"ft": 32768,
@@ -1096,6 +1212,12 @@
 		"oAP": "\/wp_files\/r4\/includes\/header.php",
 		"oF": 0
 		},
+	"\/wp_files\/r4\/includes\/loops\/content-archive.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp_files\/r4\/includes\/loops\/content-archive.php",
+		"oF": 0
+		},
 	"\/wp_files\/r4\/includes\/loops\/content-page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1155,16 +1277,6 @@
 		"oA": 2,
 		"oAP": "\/wp_files\/r4\/single.php",
 		"oF": 0
-		},
-	"\/wp_files\/r4\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp_files\/r4\/style-min.css",
-		"oF": 0,
-		"oS": 0
 		}
 	},
 "hooks": [
