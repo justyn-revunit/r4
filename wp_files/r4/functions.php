@@ -124,25 +124,35 @@ function get_blog_posts($atts){
     $category   = $atts['category'];
     $number     = $atts['number'];
     $args = array(
-	'posts_per_page'   => $number,
-	'offset'           => 0,
-	'category_name'    => $category,
-	'orderby'          => 'date',
-	'order'            => 'DESC',
-	'post_type'        => 'post',
-	'post_status'      => 'publish',
-	'suppress_filters' => true 
+        'posts_per_page'   => $number,
+        'offset'           => 0,
+        'category_name'    => $category,
+        'orderby'          => 'date',
+        'order'            => 'DESC',
+        'post_type'        => 'post',
+        'post_status'      => 'publish',
+        'suppress_filters' => true 
     );
     $posts_array = get_posts( $args );
     if(count($posts_array)>0){
-        $header = '';
-        $footer = '';
+        $header = '<section class="blog-grid-wrap"><div class="container"><div class="row blog-row">';
+        $footer = '</div></div></section>';
+        $html   = '';
         foreach($posts_array as $p){
-
+            $url = site_url().'/'.$p->post_name;
+            $img = get_the_post_thumbnail( $p->ID, 'medium' );
+            $cats = get_the_category( $p->ID );
+            $cat = $cats[0]->name;
+            $title = $p->post_title; 
+            $excerpt = substr( $p->post_excerpt, 0, 170 ).'...';
+            $html .= '<div class="col-xs-12 col-md-4"><a href="' . $url .'" class="shadow bg-white grid-blog-post"><div class="img-wrap">'.$img.'</div><div class="text-wrap"> <span class="caps blog-grid-cat">'.$cat.'</span><h4>'. $title.'</h4><p>'.$excerpt.'</p></div></a></div>';
         }
+        return $header.$html.$footer;
     } else {
         $posts = '';
     }
+    return $posts;
 }// get_blog_posts
+
 add_shortcode( 'blog_posts', 'get_blog_posts' );
 ?>

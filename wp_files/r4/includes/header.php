@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/gitHubStyles.php">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/modals/css/default.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/modals/css/component.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/lity.min.css">
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lity.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/modals/js/modernizr.custom.js"></script>
 </head>
 
